@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Giphs Galore!</h1>
+        </div>
+    </div>
+    <!-- Buttons  -->
+    <div id="gifButtonsView" class="container">
+    </div>
+     <!-- Main Container  -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+         <!-- Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">          
+            <form id="gif-form" role="form">
+                <h2><legend>Submit</legend></h2>
+                <div class="form-group">
+                    <label for="topic-input">Pick a topic</label>
+                    <input type="text" id="topic-input">
+                </div>
+                <input id="addGif" type="submit" value="Add your topic" class="btn btn-danger">
+            </form>    
+            
+        </div>
+    </div>
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
